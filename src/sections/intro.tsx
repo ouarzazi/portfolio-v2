@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import { BsLinkedin, BsMedium} from "react-icons/bs";
+import { BsLinkedin} from "react-icons/bs";
 import { FaGithub} from "react-icons/fa"; 
 import { BiSolidHappyBeaming } from "react-icons/bi";
 import portfolioImg from "/portfolio.jpeg";
