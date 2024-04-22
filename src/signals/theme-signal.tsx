@@ -6,7 +6,7 @@ type Theme = "light" | "dark";
 const localTheme = window.localStorage.getItem("theme") as Theme | null;
 
 
-export let themeSignal = signal<Theme>(localTheme || "dark");
+export let themeSignal = signal<Theme>(localTheme || "light");
 
 function applyTheme() {
     if (themeSignal.value === "dark") {
