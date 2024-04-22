@@ -60,6 +60,7 @@ export default function Experience() {
 
               <p className="font-normal !mt-0 opacity-80">
                 <FaMapMarkerAlt className="inline text-lg mb-2" /> {item.location}
+                
               </p>
               <ReactMarkdown
                 className="!mt-1 !font-normal text-gray-700 dark:text-white/75 Markdown"
