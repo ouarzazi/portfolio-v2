@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import d3jsCsvVis from "/demo_d3js.png";
+import sudoku from "/sudoku.png";
 import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import sololearn from "/sololearn.png"
@@ -126,11 +127,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "UDP & TCP CHAT",
+    title: "UDP & TCP Chat",
     description: `This project is a Network Communication using UDP and TCP protocols. It includes both server and client implementations for both UDP and TCP, along with a multi-threaded TCP server.`,
     tags: ["UDP", "TCP","JAVA"],
     icons: ["logos:java"],
     imageUrl: d3jsCsvVis,
     githubLink: "https://github.com/ouarzazi/JAVA_UDP_TCP_Chat"
-  }
+  },
+
+  {
+    title: "Sudoku Solver",
+    description: `This Python project provides a Sudoku solver that utilizes a recursive backtracking algorithm. The program is designed to take a partially filled Sudoku grid as input and return the solved puzzle.`,
+    tags: ["PYTHON", "STREAMLIT"],
+    icons: ["logos:python","logos:streamlit"],
+    imageUrl: sudoku,
+    githubLink: "https://github.com/ouarzazi/sudoku_solver"
+  },
+  
 ] as const;
